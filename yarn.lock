@@ -1417,6 +1417,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@react-native-clipboard/clipboard@*":
+  "integrity" "sha512-nvSIIHzybVWqYxcJE5hpT17ekxAAg383Ggzw5WrYHtkKX61N1AwaKSNmXs5xHV7pmKSOe/yWjtSwxIzfW51I5Q=="
+  "resolved" "https://registry.npmjs.org/@react-native-clipboard/clipboard/-/clipboard-1.11.1.tgz"
+  "version" "1.11.1"
+
 "@react-native-community/checkbox@^0.5.14":
   "integrity" "sha512-UmGf3wBpoCXLmVRKIDZyzOG+QR1fOhm0FOw4KzxHTCXpsBvZgIn5wbJ+MWk4io5RohQdY8GSX2MYFmkPJeJpeA=="
   "resolved" "https://registry.npmjs.org/@react-native-community/checkbox/-/checkbox-0.5.14.tgz"
@@ -5916,6 +5921,11 @@
   "integrity" "sha512-nnLawTZEPPRAKq92UqDkzoGgCBl9aa9zAihFHMwmwzn4WRVdK4O6Cd4XYiyoNOiQzx3Hh9k5WOckHE80C92ivQ=="
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.14.tgz"
   "version" "0.71.14"
+
+"react-native-otp-inputs@^7.4.0":
+  "integrity" "sha512-+phHrlcQQ63VuOrHaOZze7LP9WmzUGxGMlQx2A/jhPhYkCi/5hXDjxNcWyPXCy/RFRoLX+70HNpGqTgo0mDg7Q=="
+  "resolved" "https://registry.npmjs.org/react-native-otp-inputs/-/react-native-otp-inputs-7.4.0.tgz"
+  "version" "7.4.0"
 
 "react-native-responsive-dimensions@^3.1.1":
   "integrity" "sha512-Vo2OhWsphq0HgKsmeZOeyW+c+vsFn1ZaCFkGDgdeCEEiLriT76jGA1JlUjtrj27hvyo/xzeTlBZ+vBso1A84fw=="

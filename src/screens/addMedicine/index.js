@@ -30,14 +30,16 @@ export default function AddMedicine({navigation}) {
   ]);
 
   const addData = (index, item) => {
-    if (
-      detail[index].insurance == '' ||
-      detail[index].medicineName == '' ||
-      detail[index].quantity == '' ||
-      detail[index].frequency == '' ||
-      detail[index].duration == ''
-    ) {
-      Alert.alert('Please enter empty field');
+    if (detail[index].insurance == '') {
+      Alert.alert('Please enter insurance field');
+    } else if (detail[index].medicineName == '') {
+      Alert.alert('Please enter medicine field');
+    } else if (detail[index].quantity == '') {
+      Alert.alert('Please enter quantity field');
+    } else if (detail[index].frequency == '') {
+      Alert.alert('Please enter frequency field');
+    } else if (detail[index].duration == '') {
+      Alert.alert('Please enter duration field');
     } else {
       let data = Object.assign([], detail, {
         [index]: {...item, isAdded: true},
@@ -66,9 +68,9 @@ export default function AddMedicine({navigation}) {
       <View style={{flex: 1, backgroundColor: 'white'}}>
         <SegmentedControlTab
           values={[
-            'Upload Prescription file',
-            'E-prescription number',
-            'Medicine manually',
+            'Upload file',
+            'E-prescription',
+            'Medicine',
           ]}
           selectedIndex={customStyleIndex}
           onTabPress={handleCustomIndexSelect}
@@ -122,6 +124,7 @@ export default function AddMedicine({navigation}) {
                             [index]: {...item, medicineName: text},
                           }),
                         )
+                        
                       }></TextInput>
 
                     <View style={{flexDirection: 'row', flex: 1}}>

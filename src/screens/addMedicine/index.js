@@ -67,11 +67,7 @@ export default function AddMedicine({navigation}) {
     <ScrollView style={{backgroundColor: 'white'}}>
       <View style={{flex: 1, backgroundColor: 'white'}}>
         <SegmentedControlTab
-          values={[
-            'Upload file',
-            'E-prescription',
-            'Medicine',
-          ]}
+          values={['Upload file', 'E-prescription', 'Medicine']}
           selectedIndex={customStyleIndex}
           onTabPress={handleCustomIndexSelect}
           borderRadius={10}
@@ -124,7 +120,6 @@ export default function AddMedicine({navigation}) {
                             [index]: {...item, medicineName: text},
                           }),
                         )
-                        
                       }></TextInput>
 
                     <View style={{flexDirection: 'row', flex: 1}}>
